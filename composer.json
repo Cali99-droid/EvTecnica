@@ -1,0 +1,22 @@
+{
+    "name": "carlosorellano/newsletter",
+    "description": "App que permite ingresar nombre e email para suscribirse un newsletter.",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Orellano Rondan Carlos https://orellano.groupcjc.com/ "
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.5",
+         "vlucas/phpdotenv": "^5.4"
+    }
+}
